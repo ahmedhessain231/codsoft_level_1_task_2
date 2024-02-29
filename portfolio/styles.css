@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #2C3E50, #3498db);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive; /* Use a stylish font for the logo */
+    letter-spacing: 10px; /* Adjust letter spacing for better readability */
+    padding: 10px 0;
+    border-bottom: 2px solid #fff; /* Add a border bottom for emphasis */
+}
+
+.tagline {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 300; /* Reduce font weight for the tagline */
+}
+
+.about-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 60px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 50px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: linear-gradient(135deg, #34495E, #2C3E50);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-link {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-link:hover {
+    color: #FFA500;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .logo {
+        font-size: 36px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 180px;
+}
+
+.skills-list li:hover {
+    transform: translateY(-5px);
+}
+
+.skills-list li i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.skills-list li span {
+    font-size: 16px;
+}
